@@ -1,1 +1,10 @@
-# tähän tulee CSS tiedosto
+h1{
+   color: black;
+}
+p{
+   color: black;
+}
+body{
+   background-color: rgb(167, 200, 232);
+   text-align: center;
+}
