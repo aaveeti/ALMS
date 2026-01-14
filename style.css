@@ -5,6 +5,22 @@ p{
    color: black;
 }
 body{
+   font-family: Arial, sans-serif;
+   max-width: 800px;
+   margin: auto;
+   padding: 20px;
    background-color: rgb(167, 200, 232);
-   text-align: center;
+}
+.menu{
+   list-style: none;
+   display: flex;
+   gap: 20px;
+   padding: 0;
+}
+.menu a{
+   text-decoration: none;
+   color: #333;
+}
+.menu a:hover{
+   text-decoration: underline;
 }
