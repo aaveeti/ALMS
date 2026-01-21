@@ -1,7 +1,14 @@
 h1{
-   color: black;
+   font-size: 2.2rem;
+   margin-bottom: 10px;
+   color: #1a4d7a;
+}
+h2{
+   margin-top: 30px;
+   color: #1a4d7a;
 }
 p{
+   margin-bottom: 16px;
    color: black;
 }
 body{
@@ -10,17 +17,43 @@ body{
    margin: auto;
    padding: 20px;
    background-color: rgb(167, 200, 232);
+   color: #222;
+   line-height: 1.6;
+}
+main{
+   background-color: white;
+   padding: 30px;
+   border-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
 }
 .menu{
    list-style: none;
    display: flex;
    gap: 20px;
-   padding: 0;
+   padding: 15px 20px;
+   margin-bottom: 30px;
+   background-color: white;
+   border-radius: 6px;
 }
 .menu a{
    text-decoration: none;
-   color: #333;
+   color: #1a4d7a;
+   font-weight: bold;
+   transition: color 0.2s ease;
 }
 .menu a:hover{
    text-decoration: underline;
+   color: #0d3c61;
+}
+@media (max-width: 600px) {
+   .menu {
+      flex-direction: column;
+      gap: 10px;	
+   }
+   body {
+      padding: 10px;
+   }
+   main {
+      padding: 20px;
+   }
 }
