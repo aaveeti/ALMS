@@ -14,7 +14,7 @@ This is a static website developed for documenting my progress through the Engli
 
 ## Deployment:
 - Hosted with GitHub Pages
-- Link: https://aaveeti.github.io/ALMS/[Visit the website]
+- Link: [Visit the website](https://aaveeti.github.io/ALMS/)
 
 ## Made by:
 - aaveeti
